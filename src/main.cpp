@@ -32,7 +32,7 @@ void setup() {
 
 void loop() {
   motor.loopFOC();
-  // motor.move(target_angle);
-  motor.move(target_velocity);
+  motor.move(target_angle);
+  // motor.move(target_velocity);
   motor.monitor();
 }
