@@ -25,13 +25,10 @@ void setup() {
   motor.P_angle.P = 20;
   motor.velocity_limit = 20;
   motor.PID_velocity.output_ramp = 1000;
-  
-
   motor.init();
   motor.initFOC();
   _delay(1000);
 }
-
 
 void loop() {
   motor.loopFOC();
