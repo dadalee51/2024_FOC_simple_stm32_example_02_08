@@ -49,6 +49,7 @@ void loop() {
   a2=analogRead(PB12);
   a3=analogRead(PB11);
   a4=analogRead(PB1);
+  delay(5);
   Serial4.print(a1);
   Serial4.print("\t");
   Serial4.print(a2);
