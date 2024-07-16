@@ -57,10 +57,10 @@ void loop() {
   Serial4.print("\t");
   Serial4.print(a4);
   Serial4.println("");
-  delay(10);
-  // motor.loopFOC();
+  //delay(10);
+   motor.loopFOC();
   // motor.move(target_angle);
-  // motor.move(target_velocity);
+   motor.move(target_velocity);
   // motor.monitor();
  
 }
